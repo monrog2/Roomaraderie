@@ -1,0 +1,25 @@
+import MySQLdb
+
+#this is to connect to the db on the localhost with user 'username', 'password', and database 'db_name'
+db = MySQLdb.connect ("localhost", "roomaraderie", "Capstone132", "Room_DB")
+cursor =  db.cursor()
+
+#Ideally this value will be grabbed from some online webform
+user = raw_input('What is your username?')
+
+def db_test():
+  print "testing writing to db"
+
+  #check if the user exists already
+  if cursor.execute("Select (1) from USER_DTLS where name = %s", (user)):
+    print "This user already exists."
+
+  #if not, add the user to the db
+  else:
+    try:
+      cursor.execute("INSERT INTO USERS(Username) VALUES (%s)", (test))
+      db.commit()
+    
+    except:
+      print "The DB choked, rolling back"
+      db.rollback()

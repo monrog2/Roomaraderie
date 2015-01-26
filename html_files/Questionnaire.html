@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<HEAD> <TITLE>Profile</TITLE></HEAD>
+ <head>
+     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+     <link href="main1.css" rel="stylesheet">
+  </head>
+<body style="background-image:url(background.png);width:100%;height=100%;">
+<html>
+   	<div class="nav">
+      	<div class="container">
+        	<ul class="pull-left">
+          		<li><a href="#">Roomaradeire logo</a></li>
+          		<li><a href="#">FAQ</a></li>
+          		<li><a href="#">About</a></li>
+        	</ul >
+        	<ul class="pull-right">
+          		<li><a href="#">List Space</a></li>
+          		<li><a href="#">Search</a></li>
+          		<li class active><a href="Profile.html">My Profile</a></li>
+          		<li><a href="Index.html">Home</a></li>
+          		<li><a href="#">Logout</a></li>
+        	</ul>
+      	</div>
+    </div>
+	<div class="jumbotron">
+	 	<div class="container">
+	  		<nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div>
+          <ul class="nav navbar-nav">
+            <li><a href="Profile.html">Basic</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Pictures</a></li>
+            <li class="active"><a href="#">Questionnaire</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-offset-1 col-md-6">
+        <form action="index.php" name="my form" method="POST">
+            <div align="left"><br>
+            <div class="col-md-offset-5">
+ 			Do you smoke&nbsp: &emsp;&emsp;&emsp;&emsp;&emsp;
+ 			<input type="radio" name="smoke" value="yes">Yes&emsp;&emsp;
+ 			<input type="radio" name="smoke" value="no">No<br>
+ 			</br>
+ 			Do you have pets:&emsp;&emsp;&emsp;&emsp;
+ 			<input type="radio" name="pets" value="yes">Yes&emsp;&emsp;
+ 			<input type="radio" name="pets" value="no">No<br>
+ 			</br>
+ 			Do you clean&emsp;: &emsp;&emsp;&emsp;&emsp;&emsp;
+ 			<input type="radio" name="clean" value="yes">Yes&emsp;&emsp;
+ 			<input type="radio" name="clean" value="no">No<br>
+ 			</br>
+ 			Do you party&emsp;: &emsp;&emsp;&emsp;&emsp;&emsp;
+ 			<input type="radio" name="party" value="yes">Yes&emsp;&emsp;
+ 			<input type="radio" name="party" value="no">No<br>
+ 			</br>
+ 			Do you drink&emsp;: &emsp;&emsp;&emsp;&emsp;&emsp;
+ 			<input type="radio" name="drink" value="yes">Yes&emsp;&emsp;
+ 			<input type="radio" name="drink" value="no">No<br>
+ 			</br></br>
+ 			</div>
+ 			</form>
+            <div class="wrapper">
+            <span class="group-btn">  
+             <div class="col-md-offset-8">   
+                <a href="#" class="btn btn-primary btn-sm" type="submit">Save <i class="fa fa-sign-in"></i></a>
+            </span>
+            </div>
+             </div>
+            </div>
+  
+		</div>		
+	</div>
+  </body>
+</html>

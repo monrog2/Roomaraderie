@@ -1,0 +1,25 @@
+
+#container {width:100%; height=100%; border: 0px solid black; padding: 0px; margin: 0px;}
+
+#header {background-color:#000000;opacity: .4;text-align:left;; padding-top:10px; padding-bottom:5px;}
+#menu {background-color:white;opacity: .1;text-align:left;; padding-top:10px;padding-bottom:5px;}
+#content {background-color:Black; width:85%; float:left; border-bottom: 3px solid black;}
+.footer {background-color:#FFA500; clear:both; padding-top:5px; padding-bottom:5px;}
+
+a {text-decoration:none; color:black;}
+a:hover {color: blue; text-decoration:underline; font_weight: bold;}
+
+ul {list-style-type: none; margin: 0px; padding: 10px; padding-top: 20px; padding-bottom:0px;}
+ul li {padding-bottom: 20px;}
+
+#RentList {padding:20px; font-size:20px; margin: 1px;}
+#RentList li a {color: DeepSkyBlue; text-decoration:none; text-decoration:underline; font_weight: bold;}
+h1 {color:white; font-size:2em; padding-top:5px; padding-left:20px; padding-bottom:0px; margin: 0px;}
+h3 {color:white; font-size:2em; padding-top:5px; padding-left:20px; padding-bottom:0px; margin: 0px;}
+p {color:white; font-size:20px; padding:5px; padding-left:20px; padding-top:0px;}
+
+img {float:none; padding-left:7%; padding-bottom:20px;}
+#contact {padding-left:20px; float:left; color:white;}
+#info {padding-right:20px; float:right; color:white;}
+#extLinks {margin:auto; width:70%;}
+#extLinks td:hover {color: blue; text-decoration:underline; font_weight: bold;}

@@ -1,0 +1,87 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-left:10px;
+  padding-right:10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+    display:inline;
+}
+
+.nav .container {
+ background-color: #000000;
+ opacity: .8}
+ 
+ .jumbotron {
+   background-image:url(background.png);
+   height: 500px;
+ 
+}
+
+.jumbotron .container {
+    position:relative;
+    top:150px;
+    height:250px;
+    background-color: #000000;
+    opacity: .8;
+}
+
+.jumbotron button {
+position:relative;
+ display:inline;
+  top:50px;
+  left:150px;
+}
+
+.jumbotron p {
+     position:relative;
+     display:inline;
+    color: #fff;
+  font-size: 15px;
+  top:50px;
+  left:100px;
+}
+
+
+/* navbar */
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
+
+    
+ 
